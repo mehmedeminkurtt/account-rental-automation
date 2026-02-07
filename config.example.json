@@ -1,0 +1,15 @@
+{
+  "passwordPrefix": "rentuser",
+  "sender": {
+    "id": "SENDER_ID",
+    "username": "SENDER_USERNAME"
+  },
+  "services": {
+    "router": "http://localhost:3000/webhook",
+    "chat": "http://localhost:3001/send"
+  },
+  "accounts": {
+    "account1": { "username": "ACCOUNT1_USERNAME" },
+    "account2": { "username": "ACCOUNT2_USERNAME" }
+  }
+}
